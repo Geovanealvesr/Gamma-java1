@@ -2,21 +2,25 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
-        // printNome();
+        printNome();
         // calculadora();
         // verificarCompraDeGame();
         // calcularCustoDeFrete();
         // calcularEntradaESaldo();
         // calcularTotalPago();
         // calculadoraDeRacao();
-        totalDeCompra();
+        // totalDeCompra();
 
     }
 
     public static void printNome() {
-        String Nome = "Geovane";
-        String Sobrenome = "Alves";
-        System.out.println("Meu nome é " + Nome + " e meu sobrenome é " + Sobrenome);
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Digite seu nome: ");
+        String nomeUsuario = scanner.nextLine();
+        System.out.print("Digite seu sobrenome: ");
+        String sobrenomeUsuario = scanner.nextLine();
+        scanner.close();
+        System.out.println("Seu nome é : " + nomeUsuario + " " + sobrenomeUsuario);
     }
 
     public static void calculadora() {
