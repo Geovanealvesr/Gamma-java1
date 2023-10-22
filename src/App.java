@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
-        printNome();
+        // printNome();
         // calculadora();
         // verificarCompraDeGame();
         // calcularCustoDeFrete();
