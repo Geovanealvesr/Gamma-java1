@@ -90,7 +90,7 @@ public class AtividadeDois {
             arrayNumeros[i] = scanner.nextInt();
             menor = arrayNumeros[i];
             maior = arrayNumeros[i];
-            scanner.close();
+           
         }
 
         for (int i = 0; i < qntNumeros; i++) {
@@ -100,8 +100,10 @@ public class AtividadeDois {
                 menor = arrayNumeros[i];
             }
         }
+        scanner.close();
         System.out.println("o maior numero é " + maior);
-        System.out.println("o menor numero é " + menor);
+        System.out.println("o menor numero é " + menor); 
+        
     };
     // 6°
 
